@@ -2,18 +2,18 @@
 
 describe('Criando cenário de teste para o site roblox', ()=> {
 
-  it.skip('Caso de teste: logar usuario', () => {
+  it('Caso de teste: logar usuario', () => {
     LogarUsuario()
     cy.get('#nav-robux-amount').should('have.text', '0')
 
   })
 
-  it.skip('Caso de teste: pesquisar um jogo', () => {
+  it('Caso de teste: pesquisar um jogo', () => {
     cy.visit('https://web.roblox.com/discover#/')
     cy.get('[data-testid="navigation-search-input-field"]').type('one piece {enter}')
   })
 
-  it.skip('Caso de teste: assinar premium', () => {
+  it('Caso de teste: assinar premium', () => {
     LogarUsuario()
     cy.get('.icon-nav-menu').click()
     cy.get('#upgrade-now-button').click()
@@ -23,7 +23,7 @@ describe('Criando cenário de teste para o site roblox', ()=> {
 
   })
 
-  it.skip('Caso de teste: logar usuario invalido', () => {
+  it('Caso de teste: logar usuario invalido', () => {
 
     cy.visit('https://web.roblox.com/discover#/')
     cy.get('.rbx-navbar-login').click()
@@ -33,7 +33,7 @@ describe('Criando cenário de teste para o site roblox', ()=> {
     cy.get('#login-form-error').should('have.text', 'Nome de usuário ou senha incorretos.')
   })
 
-  it.skip('Caso de teste: clicar categoria', () => {
+  it('Caso de teste: clicar categoria', () => {
 
     cy.visit('https://web.roblox.com/discover#/')
     cy.get(':nth-child(2) > [data-testid="game-lists-game-container-header"] > h2 > a').click()
@@ -41,9 +41,11 @@ describe('Criando cenário de teste para o site roblox', ()=> {
 
   })
 
-  it('Caso de teste: clicar categoria', () => {
+  it('Caso de teste: botão Ver todos', () => {
 
     cy.visit('https://web.roblox.com/discover#/')
+    cy.get(':nth-child(2) > [data-testid="game-lists-game-container-header"] > [data-testid="game-lists-game-container-header-see-all-button"]').click()
+    cy.get('h1').should('contain','Mais cativantes')
 
   })
 
