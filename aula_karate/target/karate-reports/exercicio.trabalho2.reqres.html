@@ -22,15 +22,15 @@
       <img src="karate-logo.svg" alt="Karate"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">3</div>
-      <div id="nav-fail" class="bg-danger">3</div>
+      <div id="nav-pass" class="bg-success">6</div>
+      <div id="nav-fail" class="bg-danger">0</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-11-30 11:47:22 PM</div>
+    <div>2022-11-30 11:48:58 PM</div>
   </div>        
 </div>
 
@@ -41,13 +41,13 @@
           <div class="nav-item passed">
             <a href="#[2:16]"><span>[2:16]</span> <span>Listando um usuário especifico.</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[3:27]"><span>[3:27]</span> <span>Deletando um usuário</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[4:33]"><span>[4:33]</span> <span>Logando com um usuário existente</span></a>
           </div>
-          <div class="nav-item failed">
+          <div class="nav-item passed">
             <a href="#[5:41]"><span>[5:41]</span> <span>Logando de forma invalida</span></a>
           </div>
           <div class="nav-item passed">
@@ -77,7 +77,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>617</span>
+              <span>ms:</span>&nbsp;<span>611</span>
             </div>
           </div>
           <div class="step-row">
@@ -100,7 +100,7 @@
         <span>*</span>&nbsp;<span>def url_base = &#39;https://reqres.in/api&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">5</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -109,7 +109,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">23:47:21.689 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">23:48:55.796 karate.env system property was: null 
 </div>   
 
   
@@ -157,7 +157,7 @@
         <span>And</span>&nbsp;<span>path &#39;/users?page=2&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">10</div>
   </div>
 
    
@@ -185,7 +185,7 @@
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">552</div>
+    <div class="time-cell passed">554</div>
   </div>
 
    
@@ -194,7 +194,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.9">23:47:22.041 request:
+  <div class="preformatted" data-parent="0.9">23:48:56.171 request:
 1 &gt; GET https://reqres.in/api/users?page=2
 1 &gt; Host: reqres.in
 1 &gt; Connection: Keep-Alive
@@ -202,9 +202,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-23:47:22.293 response time in milliseconds: 223
+23:48:56.409 response time in milliseconds: 209
 1 &lt; 200
-1 &lt; Date: Thu, 01 Dec 2022 02:47:24 GMT
+1 &lt; Date: Thu, 01 Dec 2022 02:48:58 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -214,12 +214,12 @@
 1 &lt; Via: 1.1 vegur
 1 &lt; Cache-Control: max-age=14400
 1 &lt; CF-Cache-Status: HIT
-1 &lt; Age: 5602
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BKl1xAtQoDClKGyolo%2Flb2eZy0ZlpQNYmn%2FlYDAom06uPWSGEaBh3jEOHp3TNrVwqS5%2BVuJyyvSIgON2Cc8DohrcTzWjOTnjEMmITwxO0mXMp7vj%2FF5WR4zUQQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Age: 5696
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=QGDJ8xiJDPrZHmwpmZA%2FlH%2Fdiwcs3RXTp7qb5pTfftQykr4u%2Fo%2Fbu5JdkXtu8pE4HsO7yappdRASfNn%2BOubqV9HQeRw9Cfem%2FJTxZjuE%2BUm%2FuC8fe2HGIRiShw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Vary: Accept-Encoding
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 77287f78fb7d0309-GRU
+1 &lt; CF-RAY: 772881c53dad02e5-GRU
 {&quot;per_page&quot;:6,&quot;total&quot;:12,&quot;data&quot;:[{&quot;last_name&quot;:&quot;Lawson&quot;,&quot;id&quot;:7,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/7-image.jpg&quot;,&quot;first_name&quot;:&quot;Michael&quot;,&quot;email&quot;:&quot;michael.lawson@reqres.in&quot;},{&quot;last_name&quot;:&quot;Ferguson&quot;,&quot;id&quot;:8,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/8-image.jpg&quot;,&quot;first_name&quot;:&quot;Lindsay&quot;,&quot;email&quot;:&quot;lindsay.ferguson@reqres.in&quot;},{&quot;last_name&quot;:&quot;Funke&quot;,&quot;id&quot;:9,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/9-image.jpg&quot;,&quot;first_name&quot;:&quot;Tobias&quot;,&quot;email&quot;:&quot;tobias.funke@reqres.in&quot;},{&quot;last_name&quot;:&quot;Fields&quot;,&quot;id&quot;:10,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/10-image.jpg&quot;,&quot;first_name&quot;:&quot;Byron&quot;,&quot;email&quot;:&quot;byron.fields@reqres.in&quot;},{&quot;last_name&quot;:&quot;Edwards&quot;,&quot;id&quot;:11,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/11-image.jpg&quot;,&quot;first_name&quot;:&quot;George&quot;,&quot;email&quot;:&quot;george.edwards@reqres.in&quot;},{&quot;last_name&quot;:&quot;Howell&quot;,&quot;id&quot;:12,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/12-image.jpg&quot;,&quot;first_name&quot;:&quot;Rachel&quot;,&quot;email&quot;:&quot;rachel.howell@reqres.in&quot;}],&quot;page&quot;:2,&quot;total_pages&quot;:2,&quot;support&quot;:{&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,&quot;url&quot;:&quot;https:\/\/reqres.in\/#support-heading&quot;}}
 </div>   
 
@@ -240,7 +240,7 @@
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">8</div>
   </div>
 
    
@@ -268,7 +268,7 @@
         <span>And</span>&nbsp;<span>match $.data == &#39;#[]&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">35</div>
+    <div class="time-cell passed">24</div>
   </div>
 
    
@@ -296,7 +296,7 @@
         <span>And</span>&nbsp;<span>match $.data == &#39;#[6]&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">6</div>
   </div>
 
    
@@ -352,7 +352,7 @@
         <span>And</span>&nbsp;<span>match each $.data contains { id: &#39;#number&#39;, email: &#39;#string&#39;, first_name: &#39;#string&#39;, last_name: &#39;#string&#39;, avatar: &#39;#string&#39;}</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -381,7 +381,7 @@
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>63</span>
+              <span>ms:</span>&nbsp;<span>496</span>
             </div>
           </div>
           <div class="step-row">
@@ -404,7 +404,7 @@
         <span>*</span>&nbsp;<span>def url_base = &#39;https://reqres.in/api&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -413,7 +413,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">23:47:22.368 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">23:48:56.480 karate.env system property was: null 
 </div>   
 
   
@@ -461,7 +461,7 @@
         <span>And</span>&nbsp;<span>path &#39;/users/5&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -489,7 +489,7 @@
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">54</div>
+    <div class="time-cell passed">480</div>
   </div>
 
    
@@ -498,7 +498,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.19">23:47:22.372 request:
+  <div class="preformatted" data-parent="0.19">23:48:56.488 request:
 1 &gt; GET https://reqres.in/api/users/5
 1 &gt; Host: reqres.in
 1 &gt; Connection: Keep-Alive
@@ -506,9 +506,9 @@
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-23:47:22.423 response time in milliseconds: 51
+23:48:56.963 response time in milliseconds: 473
 1 &lt; 200
-1 &lt; Date: Thu, 01 Dec 2022 02:47:24 GMT
+1 &lt; Date: Thu, 01 Dec 2022 02:48:59 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -517,13 +517,12 @@
 1 &lt; Etag: W/&quot;11c-fbAvBCQSZgUU6dvLRqxYG0dwUTM&quot;
 1 &lt; Via: 1.1 vegur
 1 &lt; Cache-Control: max-age=14400
-1 &lt; CF-Cache-Status: HIT
-1 &lt; Age: 859
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=3d1adUYXvm9cuyY%2FE7RvUc5DAxnm5sOkWln2g7NMeOVPI0ZEpeLWYI%2BJ59yemAPEzaeDKnYxkGRl4L%2BJ6be%2BcpEt%2B5B3Y4UwD%2FaqOJw1GrXlg2zfdRQzRdD%2BIQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; CF-Cache-Status: MISS
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=jwVXpFiOVx6qM00dzZAileiEq3k%2BmvJFz64KYks8cRDyoNWSjm68yagY09lVUpKY0I3t1xJuayny1P97Id2MIXfLo8wSh3SHosUwIg%2F%2FoctM7y1DzTlDrD5sYA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Vary: Accept-Encoding
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 77287f79fb2d01ab-GRU
+1 &lt; CF-RAY: 772881c64b35a5a7-GRU
 {&quot;data&quot;:{&quot;last_name&quot;:&quot;Morris&quot;,&quot;id&quot;:5,&quot;avatar&quot;:&quot;https:\/\/reqres.in\/img\/faces\/5-image.jpg&quot;,&quot;first_name&quot;:&quot;Charles&quot;,&quot;email&quot;:&quot;charles.morris@reqres.in&quot;},&quot;support&quot;:{&quot;text&quot;:&quot;To keep ReqRes free, contributions towards server costs are appreciated!&quot;,&quot;url&quot;:&quot;https:\/\/reqres.in\/#support-heading&quot;}}
 </div>   
 
@@ -572,7 +571,7 @@
         <span>And</span>&nbsp;<span>match $.data.id == 5</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -600,7 +599,7 @@
         <span>And</span>&nbsp;<span>match $.data.email == &#39;charles.morris@reqres.in&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -628,7 +627,7 @@
         <span>And</span>&nbsp;<span>match $.data.first_name == &#39;Charles&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -656,7 +655,7 @@
         <span>And</span>&nbsp;<span>match $.data.last_name == &#39;Morris&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -684,7 +683,7 @@
         <span>And</span>&nbsp;<span>match $.data.avatar == &#39;https://reqres.in/img/faces/5-image.jpg&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -712,8 +711,8 @@
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>37</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>468</span>
             </div>
           </div>
           <div class="step-row">
@@ -736,7 +735,7 @@
         <span>*</span>&nbsp;<span>def url_base = &#39;https://reqres.in/api&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -745,7 +744,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">23:47:22.446 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">23:48:56.999 karate.env system property was: null 
 </div>   
 
   
@@ -759,13 +758,13 @@
 
   <div class="step-row">
     <div class="step-container" id="0.28">
-      <div class="step-ref failed">28</div>
+      <div class="step-ref passed">28</div>
       
-      <div class="step-cell failed">
-        <span>Given</span>&nbsp;<span>url base_url</span>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
       </div>
     </div>
-    <div class="time-cell failed">37</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -774,16 +773,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.28">23:47:22.485 classpath:exercicio/trabalho2/reqres.feature:28
-Given url base_url
-&gt;&gt;&gt;&gt; js failed:
-01: base_url
-&lt;&lt;&lt;&lt;
-org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;base_url&quot; is not defined
-- &lt;js&gt;.:program(Unnamed:1)
-
-classpath:exercicio/trabalho2/reqres.feature:28
-</div>   
+     
 
   
 
@@ -796,13 +786,13 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   <div class="step-row">
     <div class="step-container" id="0.29">
-      <div class="step-ref skipped">29</div>
+      <div class="step-ref passed">29</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>path &#39;/users/1&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">4</div>
   </div>
 
    
@@ -824,13 +814,13 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   <div class="step-row">
     <div class="step-container" id="0.30">
-      <div class="step-ref skipped">30</div>
+      <div class="step-ref passed">30</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method delete</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">463</div>
   </div>
 
    
@@ -839,7 +829,30 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   
 
-     
+  <div class="preformatted" data-parent="0.30">23:48:57.008 request:
+1 &gt; DELETE https://reqres.in/api/users/1
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+23:48:57.468 response time in milliseconds: 459
+1 &lt; 204
+1 &lt; Date: Thu, 01 Dec 2022 02:48:59 GMT
+1 &lt; Content-Length: 0
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=lzogYItMkBtvJcrreojIMlzEymJkc8zcFrX7wnvFbthBVwvUO40%2Ft0oHThgYxc%2FnLAc36%2FE%2BdvsF52yOB3%2BdKz78OdRGS9KQJbQmxo8uLsgt21TDis3iz%2FjZLA%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 772881c97d08a4e3-GRU
+
+</div>   
 
   
 
@@ -852,13 +865,13 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   <div class="step-row">
     <div class="step-container" id="0.31">
-      <div class="step-ref skipped">31</div>
+      <div class="step-ref passed">31</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 204</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -886,8 +899,8 @@ classpath:exercicio/trabalho2/reqres.feature:28
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>2</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>537</span>
             </div>
           </div>
           <div class="step-row">
@@ -910,7 +923,7 @@ classpath:exercicio/trabalho2/reqres.feature:28
         <span>*</span>&nbsp;<span>def url_base = &#39;https://reqres.in/api&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -919,7 +932,7 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   
 
-  <div class="preformatted" data-parent="0.4">23:47:22.520 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">23:48:57.477 karate.env system property was: null 
 </div>   
 
   
@@ -933,13 +946,13 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   <div class="step-row">
     <div class="step-container" id="0.34">
-      <div class="step-ref failed">34</div>
+      <div class="step-ref passed">34</div>
       
-      <div class="step-cell failed">
-        <span>Given</span>&nbsp;<span>url base_url</span>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
       </div>
     </div>
-    <div class="time-cell failed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -948,16 +961,7 @@ classpath:exercicio/trabalho2/reqres.feature:28
 
   
 
-  <div class="preformatted" data-parent="0.34">23:47:22.523 classpath:exercicio/trabalho2/reqres.feature:34
-Given url base_url
-&gt;&gt;&gt;&gt; js failed:
-01: base_url
-&lt;&lt;&lt;&lt;
-org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;base_url&quot; is not defined
-- &lt;js&gt;.:program(Unnamed:1)
-
-classpath:exercicio/trabalho2/reqres.feature:34
-</div>   
+     
 
   
 
@@ -970,13 +974,13 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   <div class="step-row">
     <div class="step-container" id="0.35">
-      <div class="step-ref skipped">35</div>
+      <div class="step-ref passed">35</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>path &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -998,13 +1002,13 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   <div class="step-row">
     <div class="step-container" id="0.36">
-      <div class="step-ref skipped">36</div>
+      <div class="step-ref passed">36</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;eve.holt@reqres.in&quot;, &quot;password&quot;: &quot;cityslicka&quot;}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1026,13 +1030,13 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   <div class="step-row">
     <div class="step-container" id="0.37">
-      <div class="step-ref skipped">37</div>
+      <div class="step-ref passed">37</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">534</div>
   </div>
 
    
@@ -1041,7 +1045,33 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   
 
-     
+  <div class="preformatted" data-parent="0.37">23:48:57.521 request:
+1 &gt; POST https://reqres.in/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 54
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;password&quot;:&quot;cityslicka&quot;,&quot;email&quot;:&quot;eve.holt@reqres.in&quot;}
+
+23:48:58.010 response time in milliseconds: 488
+1 &lt; 200
+1 &lt; Date: Thu, 01 Dec 2022 02:49:00 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 29
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;1d-lGCrvD6B7Qzk11+2C98+nGhhuec&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=ux5MwtGcO6StnjKNep25PldEtZrUDnMNlRtxEflCWBStczzvz3uy28jHvJDzDNhhK4%2F9FkPCbX09LNMU%2FRV83AAc2q9XTVn2MeK5nSMfFzMvx3VAf7C2jdJI8Q%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 772881ccad100227-GRU
+{&quot;token&quot;:&quot;QpwL5tke4Pnpja7X4&quot;}
+</div>   
 
   
 
@@ -1054,13 +1084,13 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   <div class="step-row">
     <div class="step-container" id="0.38">
-      <div class="step-ref skipped">38</div>
+      <div class="step-ref passed">38</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1082,13 +1112,13 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   <div class="step-row">
     <div class="step-container" id="0.39">
-      <div class="step-ref skipped">39</div>
+      <div class="step-ref passed">39</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $.token == &#39;QpwL5tke4Pnpja7X4&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -1116,8 +1146,8 @@ classpath:exercicio/trabalho2/reqres.feature:34
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time failed">
-              <span>ms:</span>&nbsp;<span>3</span>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>453</span>
             </div>
           </div>
           <div class="step-row">
@@ -1140,7 +1170,7 @@ classpath:exercicio/trabalho2/reqres.feature:34
         <span>*</span>&nbsp;<span>def url_base = &#39;https://reqres.in/api&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1149,7 +1179,7 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   
 
-  <div class="preformatted" data-parent="0.4">23:47:22.535 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">23:48:58.035 karate.env system property was: null 
 </div>   
 
   
@@ -1163,13 +1193,13 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   <div class="step-row">
     <div class="step-container" id="0.42">
-      <div class="step-ref failed">42</div>
+      <div class="step-ref passed">42</div>
       
-      <div class="step-cell failed">
-        <span>Given</span>&nbsp;<span>url base_url</span>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url url_base</span>
       </div>
     </div>
-    <div class="time-cell failed">3</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1178,16 +1208,7 @@ classpath:exercicio/trabalho2/reqres.feature:34
 
   
 
-  <div class="preformatted" data-parent="0.42">23:47:22.540 classpath:exercicio/trabalho2/reqres.feature:42
-Given url base_url
-&gt;&gt;&gt;&gt; js failed:
-01: base_url
-&lt;&lt;&lt;&lt;
-org.graalvm.polyglot.PolyglotException: ReferenceError: &quot;base_url&quot; is not defined
-- &lt;js&gt;.:program(Unnamed:1)
-
-classpath:exercicio/trabalho2/reqres.feature:42
-</div>   
+     
 
   
 
@@ -1200,13 +1221,13 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   <div class="step-row">
     <div class="step-container" id="0.43">
-      <div class="step-ref skipped">43</div>
+      <div class="step-ref passed">43</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>path &#39;/login&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1228,13 +1249,13 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   <div class="step-row">
     <div class="step-container" id="0.44">
-      <div class="step-ref skipped">44</div>
+      <div class="step-ref passed">44</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>request { &quot;email&quot;: &quot;gabriel@teste.com.br&quot;}</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1256,13 +1277,13 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   <div class="step-row">
     <div class="step-container" id="0.45">
-      <div class="step-ref skipped">45</div>
+      <div class="step-ref passed">45</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>When</span>&nbsp;<span>method post</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">452</div>
   </div>
 
    
@@ -1271,7 +1292,33 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   
 
-     
+  <div class="preformatted" data-parent="0.45">23:48:58.040 request:
+1 &gt; POST https://reqres.in/api/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 32
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;email&quot;:&quot;gabriel@teste.com.br&quot;}
+
+23:48:58.489 response time in milliseconds: 448
+1 &lt; 400
+1 &lt; Date: Thu, 01 Dec 2022 02:49:00 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 28
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;1c-NmpazMScs9tOqR7eDEesn+pqC9Q&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=AQYcNKsMwQ2%2Fm%2BlN9PFBmHOjb5BNovYAMDZnuX%2F622Z%2FynvtzVo7yZMJTeeBHDete7blLps7%2BWCT1YzHAFxDOuad%2B7%2FF%2F6V9i8lqTYSGSF9Lh1l99VPogUSs9g%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 772881cfed81a4ed-GRU
+{&quot;error&quot;:&quot;Missing password&quot;}
+</div>   
 
   
 
@@ -1284,13 +1331,13 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   <div class="step-row">
     <div class="step-container" id="0.46">
-      <div class="step-ref skipped">46</div>
+      <div class="step-ref passed">46</div>
       
-      <div class="step-cell skipped">
-        <span>Then</span>&nbsp;<span>status 200</span>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 400</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -1312,13 +1359,13 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   <div class="step-row">
     <div class="step-container" id="0.47">
-      <div class="step-ref skipped">47</div>
+      <div class="step-ref passed">47</div>
       
-      <div class="step-cell skipped">
+      <div class="step-cell passed">
         <span>And</span>&nbsp;<span>match $.error == &#39;Missing password&#39;</span>
       </div>
     </div>
-    <div class="time-cell skipped">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1347,7 +1394,7 @@ classpath:exercicio/trabalho2/reqres.feature:42
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>48</span>
+              <span>ms:</span>&nbsp;<span>53</span>
             </div>
           </div>
           <div class="step-row">
@@ -1379,7 +1426,7 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   
 
-  <div class="preformatted" data-parent="0.4">23:47:22.547 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">23:48:58.498 karate.env system property was: null 
 </div>   
 
   
@@ -1427,7 +1474,7 @@ classpath:exercicio/trabalho2/reqres.feature:42
         <span>And</span>&nbsp;<span>path &#39;/users/23&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -1455,7 +1502,7 @@ classpath:exercicio/trabalho2/reqres.feature:42
         <span>When</span>&nbsp;<span>method get</span>
       </div>
     </div>
-    <div class="time-cell passed">45</div>
+    <div class="time-cell passed">52</div>
   </div>
 
    
@@ -1464,7 +1511,7 @@ classpath:exercicio/trabalho2/reqres.feature:42
 
   
 
-  <div class="preformatted" data-parent="0.52">23:47:22.553 request:
+  <div class="preformatted" data-parent="0.52">23:48:58.502 request:
 1 &gt; GET https://reqres.in/api/users/23
 1 &gt; Host: reqres.in
 1 &gt; Connection: Keep-Alive
@@ -1472,9 +1519,9 @@ classpath:exercicio/trabalho2/reqres.feature:42
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-23:47:22.596 response time in milliseconds: 42
+23:48:58.550 response time in milliseconds: 48
 1 &lt; 404
-1 &lt; Date: Thu, 01 Dec 2022 02:47:24 GMT
+1 &lt; Date: Thu, 01 Dec 2022 02:49:00 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Content-Length: 2
 1 &lt; Connection: keep-alive
@@ -1484,12 +1531,12 @@ classpath:exercicio/trabalho2/reqres.feature:42
 1 &lt; Via: 1.1 vegur
 1 &lt; Cache-Control: max-age=14400
 1 &lt; CF-Cache-Status: HIT
-1 &lt; Age: 135
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=eRqWDDsToVEh7jzmgul19L09tAadnuy2wpGHn9PvZu7zyxVJ2JrR239UJWHEzqST272Jr5sIR6pbRoBT3km2MAgzl9vy8%2FvNhJPeNx9ufMc6JVbME6yrvAU%2Fww%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Age: 38
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=1fBiidxVVI60aGxnQgDm1fZpNdF6B%2BvGLZW85ZC1qGOKPxGyudSTU5o%2FBmplUlaWpRoHacBlUkH023aTnDozgoRESHCjr0gpsfQejSl4c8M9%2FxUbZgAlU4IOSg%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Vary: Accept-Encoding
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 77287f7b1ef30131-GRU
+1 &lt; CF-RAY: 772881d2cd890295-GRU
 {}
 </div>   
 

@@ -43,7 +43,7 @@ Scenario: Logando de forma invalida
     And path '/login'
 And request { "email": "gabriel@teste.com.br"}
     When method post
-    Then status 200
+    Then status 400
     And match $.error == 'Missing password'
 
 Scenario: Listando um usuário inexistente.
