@@ -18,20 +18,20 @@ Scenario: Listando um usuário especifico.
     And path '/users/5'
     When method get
     Then status 200
-    And match $.id == 5
-    And match $.email == 'charles.morris@reqres.in'
-    And match $.first_name == 'Charles'
-    And match $.last_name == 'Morris'
-    And match $.avatar == 'https://reqres.in/img/faces/5-image.jpg'
+    And match $.data.id == 5
+    And match $.data.email == 'charles.morris@reqres.in'
+    And match $.data.first_name == 'Charles'
+    And match $.data.last_name == 'Morris'
+    And match $.data.avatar == 'https://reqres.in/img/faces/5-image.jpg'
 
 Scenario: Deletando um usuário 
-    Given url base_url
+    Given url url_base
     And path '/users/1'
     When method delete
     Then status 204
 
 Scenario: Logando com um usuário existente 
-    Given url base_url
+    Given url url_base
     And path '/login'
     And request { "email": "eve.holt@reqres.in", "password": "cityslicka"}
     When method post
@@ -39,7 +39,7 @@ Scenario: Logando com um usuário existente
     And match $.token == 'QpwL5tke4Pnpja7X4'
 
 Scenario: Logando de forma invalida 
-    Given url base_url
+    Given url url_base
     And path '/login'
 And request { "email": "gabriel@teste.com.br"}
     When method post
