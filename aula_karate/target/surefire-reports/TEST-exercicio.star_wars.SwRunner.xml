@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="exercicio.star_wars.SwRunner" time="9.042" tests="6" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="19"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\gabri\Documents\faculdade\Lab_S206\aula_karate\target\test-classes;C:\Users\gabri\Documents\faculdade\Lab_S206\aula_karate\target\classes;C:\Users\gabri\.m2\repository\com\intuit\karate\karate-junit5\1.0.1\karate-junit5-1.0.1.jar;C:\Users\gabri\.m2\repository\com\intuit\karate\karate-core\1.0.1\karate-core-1.0.1.jar;C:\Users\gabri\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\gabri\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\gabri\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\gabri\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\gabri\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\gabri\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\gabri\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\gabri\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\gabri\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\gabri\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\gabri\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\gabri\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\gabri\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\gabri\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\gabri\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\gabri\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="19"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
+    <property name="sun.java.command" value="C:\Users\gabri\AppData\Local\Temp\surefire6772678611119532134\surefirebooter3484078964176452070.jar C:\Users\gabri\AppData\Local\Temp\surefire6772678611119532134 2022-11-30T23-37-27_176-jvmRun1 surefire13066842221619855088tmp surefire_011994653935937198417tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="SwRunner"/>
+    <property name="surefire.test.class.path" value="C:\Users\gabri\Documents\faculdade\Lab_S206\aula_karate\target\test-classes;C:\Users\gabri\Documents\faculdade\Lab_S206\aula_karate\target\classes;C:\Users\gabri\.m2\repository\com\intuit\karate\karate-junit5\1.0.1\karate-junit5-1.0.1.jar;C:\Users\gabri\.m2\repository\com\intuit\karate\karate-core\1.0.1\karate-core-1.0.1.jar;C:\Users\gabri\.m2\repository\org\graalvm\js\js-scriptengine\21.0.0\js-scriptengine-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\sdk\graal-sdk\21.0.0\graal-sdk-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\js\js\21.0.0\js-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\regex\regex\21.0.0\regex-21.0.0.jar;C:\Users\gabri\.m2\repository\org\graalvm\truffle\truffle-api\21.0.0\truffle-api-21.0.0.jar;C:\Users\gabri\.m2\repository\com\ibm\icu\icu4j\67.1\icu4j-67.1.jar;C:\Users\gabri\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\gabri\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\gabri\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\gabri\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\gabri\.m2\repository\com\jayway\jsonpath\json-path\2.5.0\json-path-2.5.0.jar;C:\Users\gabri\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\gabri\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\gabri\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\gabri\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\gabri\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\gabri\.m2\repository\org\yaml\snakeyaml\1.27\snakeyaml-1.27.jar;C:\Users\gabri\.m2\repository\de\siegmar\fastcsv\1.0.4\fastcsv-1.0.4.jar;C:\Users\gabri\.m2\repository\info\picocli\picocli\4.5.2\picocli-4.5.2.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\gabri\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\gabri\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\gabri\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\gabri\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\gabri"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-19"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\gabri\Documents\faculdade\Lab_S206\aula_karate"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\gabri\AppData\Local\Temp\surefire6772678611119532134\surefirebooter3484078964176452070.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="19.0.1+10-21"/>
+    <property name="user.name" value="gabri"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\gabri\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\gabri\AppData\Local\Temp\"/>
+    <property name="java.version" value="19.0.1"/>
+    <property name="user.dir" value="C:\Users\gabri\Documents\faculdade\Lab_S206\aula_karate"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-19\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\gabri\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\gabri\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs;C:\Program Files (x86)\dotnet;C:\Users\gabri\AppData\Local\Microsoft\WindowsApps;C:\Users\gabri\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\gabri\AppData\Local\GitHubDesktop\bin;C:\Users\gabri\AppData\Roaming\npm;C:\Users\gabri\Downloads\apache-maven-3.8.6\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="19.0.1+10-21"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="63.0"/>
+  </properties>
+  <testcase name="testStarWars[1][1]" classname="exercicio.star_wars.SwRunner" time="2.506"/>
+  <testcase name="testStarWars[1][2]" classname="exercicio.star_wars.SwRunner" time="1.028"/>
+  <testcase name="testStarWars[1][3]" classname="exercicio.star_wars.SwRunner" time="0.95"/>
+  <testcase name="testStarWars[1][4]" classname="exercicio.star_wars.SwRunner" time="1.033"/>
+  <testcase name="testStarWars[1][5]" classname="exercicio.star_wars.SwRunner" time="0.908">
+    <failure message="status code was: 404, expected: 200, response time in milliseconds: 894, url: https://swapi.dev/apistarships/12/, response: &#10;&#10;&lt;!DOCTYPE html&gt;&#10;&lt;html lang=&quot;en&quot;&gt;&#10;&lt;head&gt;&#10;  &lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;&#10;  &lt;title&gt;Page not found at /apistarships/12/&lt;/title&gt;&#10;  &lt;meta name=&quot;robots&quot; content=&quot;NONE,NOARCHIVE&quot;&gt;&#10;  &lt;style type=&quot;text/css&quot;&gt;&#10;    html * { padding:0; margin:0; }&#10;    body * { padding:10px 20px; }&#10;    body * * { padding:0; }&#10;    body { font:small sans-serif; background:#eee; }&#10;    body&gt;div { border-bottom:1px solid #ddd; }&#10;    h1 { font-weight:normal; margin-bottom:.4em; }&#10;    h1 span { font-size:60%; color:#666; font-weight:normal; }&#10;    table { border:none; border-collapse: collapse; width:100%; }&#10;    td, th { vertical-align:top; padding:2px 3px; }&#10;    th { width:12em; text-align:right; color:#666; padding-right:.5em; }&#10;    #info { background:#f6f6f6; }&#10;    #info ol { margin: 0.5em 4em; }&#10;    #info ol li { font-family: monospace; }&#10;    #summary { background: #ffc; }&#10;    #explanation { background:#eee; border-bottom: 0px none; }&#10;  &lt;/style&gt;&#10;&lt;/head&gt;&#10;&lt;body&gt;&#10;  &lt;div id=&quot;summary&quot;&gt;&#10;    &lt;h1&gt;Page not found &lt;span&gt;(404)&lt;/span&gt;&lt;/h1&gt;&#10;    &lt;table class=&quot;meta&quot;&gt;&#10;      &lt;tr&gt;&#10;        &lt;th&gt;Request Method:&lt;/th&gt;&#10;        &lt;td&gt;GET&lt;/td&gt;&#10;      &lt;/tr&gt;&#10;      &lt;tr&gt;&#10;        &lt;th&gt;Request URL:&lt;/th&gt;&#10;      &lt;td&gt;https://swapi.dev/apistarships/12/&lt;/td&gt;&#10;      &lt;/tr&gt;&#10;    &lt;/table&gt;&#10;  &lt;/div&gt;&#10;  &lt;div id=&quot;info&quot;&gt;&#10;    &#10;      &lt;p&gt;&#10;      Using the URLconf defined in &lt;code&gt;swapi.urls&lt;/code&gt;,&#10;      Django tried these URL patterns, in this order:&#10;      &lt;/p&gt;&#10;      &lt;ol&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^admin/&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^documentation$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^about$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^stats$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^stripe/donation&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/people/schema$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/planets/schema$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/films/schema$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/species/schema$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/vehicles/schema$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/starships/schema$&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;          &lt;li&gt;&#10;            &#10;                ^api/&#10;                &#10;            &#10;          &lt;/li&gt;&#10;        &#10;      &lt;/ol&gt;&#10;      &lt;p&gt;The current URL, &lt;code&gt;apistarships/12/&lt;/code&gt;, didn&apos;t match any of these.&lt;/p&gt;&#10;    &#10;  &lt;/div&gt;&#10;&#10;  &lt;div id=&quot;explanation&quot;&gt;&#10;    &lt;p&gt;&#10;      You&apos;re seeing this error because you have &lt;code&gt;DEBUG = True&lt;/code&gt; in&#10;      your Django settings file. Change that to &lt;code&gt;False&lt;/code&gt;, and Django&#10;      will display a standard 404 page.&#10;    &lt;/p&gt;&#10;  &lt;/div&gt;&#10;&lt;/body&gt;&#10;&lt;/html&gt;&#10;&#10;classpath:exercicio/star_wars/star_wars.feature:26" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+status code was: 404, expected: 200, response time in milliseconds: 894, url: https://swapi.dev/apistarships/12/, response: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /apistarships/12/</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>https://swapi.dev/apistarships/12/</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>apistarships/12/</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+classpath:exercicio/star_wars/star_wars.feature:26
+]]></failure>
+    <system-out><![CDATA[23:37:34.692 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:37:34.695 [main] DEBUG com.intuit.karate - request:
+1 > GET https://swapi.dev/apistarships/12/
+1 > Host: swapi.dev
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/19.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:37:35.589 [main] DEBUG com.intuit.karate - response time in milliseconds: 894
+1 < 404
+1 < Server: nginx/1.16.1
+1 < Date: Thu, 01 Dec 2022 02:37:37 GMT
+1 < Content-Type: text/html
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Frame-Options: SAMEORIGIN
+1 < ETag: "096eef5885bd0eb148fa4e1aaca64fcf"
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /apistarships/12/</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>https://swapi.dev/apistarships/12/</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>apistarships/12/</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+23:37:35.595 [main] ERROR com.intuit.karate - classpath:exercicio/star_wars/star_wars.feature:26
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 894, url: https://swapi.dev/apistarships/12/, response: 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Page not found at /apistarships/12/</title>
+  <meta name="robots" content="NONE,NOARCHIVE">
+  <style type="text/css">
+    html * { padding:0; margin:0; }
+    body * { padding:10px 20px; }
+    body * * { padding:0; }
+    body { font:small sans-serif; background:#eee; }
+    body>div { border-bottom:1px solid #ddd; }
+    h1 { font-weight:normal; margin-bottom:.4em; }
+    h1 span { font-size:60%; color:#666; font-weight:normal; }
+    table { border:none; border-collapse: collapse; width:100%; }
+    td, th { vertical-align:top; padding:2px 3px; }
+    th { width:12em; text-align:right; color:#666; padding-right:.5em; }
+    #info { background:#f6f6f6; }
+    #info ol { margin: 0.5em 4em; }
+    #info ol li { font-family: monospace; }
+    #summary { background: #ffc; }
+    #explanation { background:#eee; border-bottom: 0px none; }
+  </style>
+</head>
+<body>
+  <div id="summary">
+    <h1>Page not found <span>(404)</span></h1>
+    <table class="meta">
+      <tr>
+        <th>Request Method:</th>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <th>Request URL:</th>
+      <td>https://swapi.dev/apistarships/12/</td>
+      </tr>
+    </table>
+  </div>
+  <div id="info">
+    
+      <p>
+      Using the URLconf defined in <code>swapi.urls</code>,
+      Django tried these URL patterns, in this order:
+      </p>
+      <ol>
+        
+          <li>
+            
+                ^admin/
+                
+            
+          </li>
+        
+          <li>
+            
+                ^$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^documentation$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^about$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stats$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^stripe/donation
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/people/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/planets/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/films/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/species/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/vehicles/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/starships/schema$
+                
+            
+          </li>
+        
+          <li>
+            
+                ^api/
+                
+            
+          </li>
+        
+      </ol>
+      <p>The current URL, <code>apistarships/12/</code>, didn't match any of these.</p>
+    
+  </div>
+
+  <div id="explanation">
+    <p>
+      You're seeing this error because you have <code>DEBUG = True</code> in
+      your Django settings file. Change that to <code>False</code>, and Django
+      will display a standard 404 page.
+    </p>
+  </div>
+</body>
+</html>
+
+classpath:exercicio/star_wars/star_wars.feature:26
+]]></system-out>
+  </testcase>
+  <testcase name="testStarWars[1][6]" classname="exercicio.star_wars.SwRunner" time="1.938"/>
+</testsuite>

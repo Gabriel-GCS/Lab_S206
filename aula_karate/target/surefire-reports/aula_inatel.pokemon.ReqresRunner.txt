@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.pokemon.ReqresRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.425 s <<< FAILURE! - in aula_inatel.pokemon.ReqresRunner
+testPokemon  Time elapsed: 2.423 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/pokemon/reqres.feature
+

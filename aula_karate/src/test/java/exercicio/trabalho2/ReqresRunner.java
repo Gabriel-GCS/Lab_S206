@@ -1,11 +1,11 @@
-package aula_inatel.pokemon;
+package exercicio.trabalho2;
 
 import com.intuit.karate.junit5.Karate;
 
-class PokeRunner {
+public class ReqresRunner {
     
     @Karate.Test
-    Karate testPokemon() {
+    Karate testReqres() {
         return Karate.run("reqres").relativeTo(getClass());
     }    
 }
