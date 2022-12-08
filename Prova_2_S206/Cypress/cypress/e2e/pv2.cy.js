@@ -39,7 +39,6 @@ describe('Criando cenário de teste para o site demoqa.com', ()=> {
   })
 
   function ComputadorAce(){
-
     cy.visit('https://computer-database.gatling.io/computers')
     cy.get('tbody > :nth-child(1) > :nth-child(1) > a').click()
   }
