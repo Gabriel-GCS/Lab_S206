@@ -1,4 +1,4 @@
-package aula_inatel.pokemon;
+package pv2.pokemon;
 
 import com.intuit.karate.junit5.Karate;
 

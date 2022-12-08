@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: aula_inatel.pokemon.PokeRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.571 s <<< FAILURE! - in aula_inatel.pokemon.PokeRunner
+testPokemon  Time elapsed: 0.569 s  <<< ERROR!
+java.lang.RuntimeException: not found: aula_inatel/pokemon/pokemon.feature
+
